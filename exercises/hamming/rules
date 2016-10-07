@@ -1,0 +1,11 @@
+- Must have one rescue clause
+- One method has to use yield
+- Only use instance vars where they are necessary
+- No primitives 
+- One method has to be private
+
+def raise_something
+  # do stuff
+rescue SomeException =>
+puts e.message
+end

@@ -27,3 +27,4 @@ class Car
   def make_mates
     @@cars[self.make]
   end
+end
