@@ -7,4 +7,4 @@ puts 'give me another word: '
 w2 = gets.chomp
 
 binding.pry
-
+puts 'done'
