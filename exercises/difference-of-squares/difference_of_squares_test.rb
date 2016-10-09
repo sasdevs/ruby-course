@@ -2,7 +2,9 @@ require 'minitest/autorun'
 require_relative 'squares'
 
 class SquaresTest < MiniTest::Unit::TestCase
+  
   def test_square_of_sums_to_5
+    skip
     assert_equal 225, Squares.new(5).square_of_sums
   end
 
@@ -11,6 +13,7 @@ class SquaresTest < MiniTest::Unit::TestCase
   end
 
   def test_difference_of_sums_to_5
+    skip
     assert_equal 170, Squares.new(5).difference
   end
 
@@ -23,6 +26,7 @@ class SquaresTest < MiniTest::Unit::TestCase
   end
 
   def test_difference_of_sums_to_10
+    skip
     assert_equal 2640, Squares.new(10).difference
   end
 
@@ -35,6 +39,7 @@ class SquaresTest < MiniTest::Unit::TestCase
   end
 
   def test_difference_of_sums_to_100
+    skip
     assert_equal 25_164_150, Squares.new(100).difference
   end
 end
